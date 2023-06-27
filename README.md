@@ -13,8 +13,24 @@ The Hotel Management System is a Java application that allows users to book hote
 4.   Riaď sa výpismi na terminále.
 5.   Ak si prajete ukončiť booking, napíšte do terminálu "n"
 6.   Následne sa bookingy uložia do bookings.csv súboru.
-   //Privilegovaný Mód\\
-1.  
+
+
+//Privilegovaný Mód\\
+Možnosť správy bookingov pomocou textového rozhrania alebo GUI.
+
+<>Príkazy<>
+update – modifikácia políčka riadok,stĺpec
+indexom
+- delete – zmazanie políčka riadok, stĺpec  (e.g. ak mám na 2,2 Priezvisko Hraško tak ho tým vymažem.)
+- showData – vypíše textovú reprezentáciu súboru bookings.csv
+- exit – opustenie privilegovaného režimu a vrátenie sa späť ako bežný užívateľ.
+- adminPanel – po zadaní príkazu sa zobrazí GUI loginPanel ktorý obsahuje 2 vstupné 
+polia pre meno a heslo. V tomto prípade pre test to Sú: admin a password
+ následne sa spustí admin panel ako GUI ktorý obsahuje informácie o všetkých 
+rezerváciách a užívateľoch spolu s tromi tlačidlami slúžiacimi na pridanie, odstránenie 
+a aktualizovanie dát. Po zavretí okna sa administrátor vracia späť do privilegovaného 
+režimu v textovom rozhraní, z ktorého môže nasledovne odísť príkazom exit.
+</></>
 ## File Structure
 The project consists of the following files:
 * **HotelManagement.java**: The main class that runs the Hotel Management System.
