@@ -1,11 +1,13 @@
-# Hotel Management System
+# Hotel Management System (SK)
 The Hotel Management System is a Java application that allows users to book hotel rooms. It provides a simple command-line interface for users to select available rooms, make bookings, and save the booking details.
-## Features
-* Display a list of available rooms and their details.
-* Allow users to book a room by providing the room ID.
-* Prevent booking if the room is already booked.
-* Save booking details to a CSV file.
-* Load and save user data to a CSV file.
+## Funkcie
+* Zobrazenie zoznamu dostupných izieb a ich podrobností.
+* Umožnenie používateľom rezervovať izbu pomocou identifikátora izby.
+* Zabránenie rezervácie, ak je izba už obsadená.
+* Uloženie údajov o rezervácii do súboru CSV.
+* Načítanie a uloženie údajov používateľa do súboru CSV.
+
+
 ## Usage (in Slovak)
 1. Stiahnite projekt a spustite HotelManagement.java
 2.   Zadaj svoje meno a priezvisko do promptu.
@@ -13,6 +15,7 @@ The Hotel Management System is a Java application that allows users to book hote
 4.   Riaď sa výpismi na terminále.
 5.   Ak si prajete ukončiť booking, napíšte do terminálu "n"
 6.   Následne sa bookingy uložia do bookings.csv súboru.
+7.   Každú metódu zakomentoval nech je možné si to zobraziť aj v javadocs a porozumieť kódu.
 
 
 ## Privilegovaný mód
