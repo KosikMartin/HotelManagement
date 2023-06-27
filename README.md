@@ -44,3 +44,6 @@ The project consists of the following files:
 *  **User.java**: A class representing a user with first name, last name, and ID.
 *  **UserManager.java**: A class for managing user data and saving it to a file.
 *  **Booking.java**: A class representing a booking with user and room details.
+*  **LoginPanel.java**: A class that creates a GUI prompt to log into admin panel.
+*  **Administrator.java**: A class that takes care of CLI field manipulation in privileged mode.
+*  **AdminPanel.java**: A class that allows the user (administrator) overview of data and easy global management of said data.
