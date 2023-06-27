@@ -21,8 +21,7 @@ Možnosť správy bookingov pomocou textového rozhrania alebo GUI.
 
 <>Príkazy<>
 
-update – modifikácia políčka riadok,stĺpec
-indexom
+-update – modifikácia políčka riadok,stĺpec
 - delete – zmazanie políčka riadok, stĺpec  (e.g. ak mám na 2,2 Priezvisko Hraško tak ho tým vymažem.)
 - showData – vypíše textovú reprezentáciu súboru bookings.csv
 - exit – opustenie privilegovaného režimu a vrátenie sa späť ako bežný užívateľ.
